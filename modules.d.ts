@@ -6,5 +6,8 @@ declare namespace NodeJS {
       description?: string
       imageUrl?: string
     }
+    APPWRITE_ENDPOINT: string
+    APPWRITE_PROJECT_ID: string
+    APPWRITE_API_KEY: string
   }
 }

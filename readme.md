@@ -1,26 +1,25 @@
-![Github Cover](public/images/og-image.png)
+![Github Cover](./public/images/og-image.png)
 
 <div align="center">
-    <strong>The Next.js Tailwind Starter</strong>
+    <strong>Headless Content Management System powered by AppWrite</strong>
 </div>
 
 ![separator](public/images/separator.jpg)
 
-A starter for [Next.js](https://nextjs.org/) with [Tailwind CSS](https://tailwindcss.com) and Typescript.
-Pre-configured with absolute import, [TailwindUI](https://tailwindui.com), [Framer Motion](https://www.framer.com/motion/), 
-and some additional components.
+A Headless CMS powered by [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com), Typescript, and [AppWrite](https://appwrite.io/).
+Pre-configured with absolute import, [TailwindUI](https://tailwindui.com), [Framer Motion](https://www.framer.com/motion/), and some additional components.
 
 ## Quick Installation
 
 ```bash
 # Using Yarn is recomended
-npx create-next-app myapp-name -e "https://github.com/riipandi/next-tailwind-starter"
+npx create-next-app mywebsite -e "https://github.com/riipandi/headunit"
 
 # If you want to use npm instead
-npx create-next-app myapp-name --use-npm -e "https://github.com/riipandi/next-tailwind-starter"
+npx create-next-app mywebsite --use-npm -e "https://github.com/riipandi/headunit"
 ```
 
-> Don't forget to change `myapp-name` with your real application name.
+> Don't forget to change `mywebsite` with your real application name.
 
 ## Quick Start
 
@@ -49,7 +48,7 @@ yarn start   # launch generated build
 You'll want to fork this repository and deploy your own Next.js website. You can do a one-click
 deploy with the button below.
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Friipandi%2Fnext-tailwind-starter)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Friipandi%2Fheadunit)
 
 Once you have an image generator that sparks joy, you can setup [automatic GitHub](https://vercel.com/github) 
 deployments so that pushing to master will deploy to production! 🚀

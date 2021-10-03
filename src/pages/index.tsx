@@ -42,7 +42,7 @@ export default function Home() {
               About page
             </BasicLink>
             <BasicLink
-              href='https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Friipandi%2Fnext-tailwind-starter'
+              href='https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Friipandi%2Fheadunit'
               className='inline-block w-full px-8 py-3 mb-2 text-sm font-medium leading-normal transition duration-200 border border-blue-300 rounded md:w-auto hover:border-blue-400 hover:bg-blue-400 dark:hover:bg-blue-300 hover:text-white dark:text-white dark:bg-blue-400'
               newTab
             >
