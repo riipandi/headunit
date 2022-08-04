@@ -64,6 +64,13 @@ const config = {
         },
       }
     },
+    [
+      'docusaurus-plugin-plausible',
+      {
+        domain: 'headunit.js.org',
+        customDomain: 'stats.web.id',
+      },
+    ]
   ],
 
   themeConfig:

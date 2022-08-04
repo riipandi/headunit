@@ -4743,6 +4743,11 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
+docusaurus-plugin-plausible@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/docusaurus-plugin-plausible/-/docusaurus-plugin-plausible-0.0.5.tgz#d113f7d82c09a3945e88227265b599ba1904bfb9"
+  integrity sha512-8wiglvMjkGjhGUnBYgJM87V1Ip0wr8AbIHiC5YHNar3DOfXX+JL0nBoThlnvaX1ib/emraWgimR5QiMDOgMJjA==
+
 dom-accessibility-api@^0.5.9:
   version "0.5.14"
   resolved "https://registry.yarnpkg.com/dom-accessibility-api/-/dom-accessibility-api-0.5.14.tgz#56082f71b1dc7aac69d83c4285eef39c15d93f56"
