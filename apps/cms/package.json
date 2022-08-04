@@ -1,13 +1,13 @@
 {
-  "name": "prismix",
-  "version": "0.2.0",
+  "name": "@headunit/cms",
+  "version": "0.1.0",
   "private": true,
   "sideEffects": false,
   "scripts": {
     "build": "run-s build:*",
     "build:css": "npm run generate:css -- --minify",
     "build:remix": "remix build",
-    "dev": "run-p dev:*",
+    "dev": "PORT=3030 run-p dev:*",
     "dev:css": "npm run generate:css -- --watch",
     "dev:remix": "cross-env NODE_ENV=development binode -- @remix-run/dev:remix dev",
     "generate:css": "tailwindcss -o ./app/styles/tailwind.css",
@@ -85,5 +85,8 @@
   },
   "prisma": {
     "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

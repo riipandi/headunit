@@ -9,7 +9,11 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    "dev:web": "turbo run dev --filter=web",
+    "build:cms": "turbo run build  --filter=@headunit/cms",
+    "build:web": "turbo run build  --filter=@headunit/website",
+    "dev:cms": "turbo run dev --filter=@headunit/cms",
+    "dev:web": "turbo run dev --filter=@headunit/website",
+    "deploy:web": "turbo run deploy --filter=@headunit/website",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
