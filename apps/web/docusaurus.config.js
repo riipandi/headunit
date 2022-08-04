@@ -70,7 +70,7 @@ const config = {
         domain: 'headunit.js.org',
         customDomain: 'stats.web.id',
       },
-    ]
+    ],
   ],
 
   themeConfig:
@@ -83,13 +83,19 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          { to: '/get-started', label: 'Get Started', position: 'left' },
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/showcase', label: 'Showcase', position: 'left' },
+        //   {
+        //     type: 'docsVersionDropdown',
+        //     position: 'right'
+        //   },
           {
             href: 'https://github.com/riipandi/headunit',
             label: 'GitHub',
