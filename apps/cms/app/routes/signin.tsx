@@ -72,7 +72,7 @@ export default function SignInPage() {
       <div className="mx-auto w-full max-w-md px-8">
         <Form method="post" className="space-y-6">
           <div>
-            <label htmlFor="email" className="block font-medium text-sm text-gray-700">
+            <label htmlFor="email" className="block text-sm font-medium text-gray-700">
               Email address
             </label>
             <div className="mt-1">
@@ -152,7 +152,7 @@ export default function SignInPage() {
             </div>
           </div>
         </Form>
-        <div className="mt-10 sm:mt-12 text-sm text-center">
+        <div className="mt-10 text-center text-sm sm:mt-12">
           <Link to="/">&larr; back to homepage</Link>
         </div>
       </div>

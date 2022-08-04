@@ -11,9 +11,21 @@
         "dev": {
             "cache": false
         },
+        "postinstall": {
+            "outputs": []
+        },
         "deploy": {
             "dependsOn": ["^build"],
             "outputs": ["build/**", "dist/**"]
+        },
+        "db:init": {
+            "cache": false
+        },
+        "db:setup": {
+            "cache": false
+        },
+        "db:migrate": {
+            "cache": false
         }
     }
 }

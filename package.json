@@ -14,6 +14,10 @@
     "dev:cms": "turbo run dev --filter=@headunit/cms",
     "dev:web": "turbo run dev --filter=@headunit/website",
     "deploy:web": "turbo run deploy --filter=@headunit/website",
+    "db:init": "turbo run db:init --filter=@headunit/cms",
+    "db:setup": "turbo run db:setup --filter=@headunit/cms",
+    "db:migrate": "turbo run db:migrate --filter=@headunit/cms",
+    "postinstall": "turbo run postinstall --filter=./apps/*",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },

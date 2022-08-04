@@ -150,7 +150,7 @@ export default function SignUpPage() {
             </div>
           </div>
         </Form>
-        <div className="mt-10 sm:mt-12 text-sm text-center">
+        <div className="mt-10 text-center text-sm sm:mt-12">
           <Link to="/">&larr; back to homepage</Link>
         </div>
       </div>
